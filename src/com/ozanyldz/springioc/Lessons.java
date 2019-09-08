@@ -12,4 +12,6 @@ public interface Lessons {
 	public void getInfo();
 	
 	public void getHoliday();
+	
+	public void getLesson();
 }

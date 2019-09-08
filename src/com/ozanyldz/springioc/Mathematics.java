@@ -31,4 +31,9 @@ public class Mathematics implements Lessons {
 	  System.out.println(this.holidays.getHolidays());	
 	}
 	
+	@Override
+	public void getLesson() {
+		
+	}
+	
 }

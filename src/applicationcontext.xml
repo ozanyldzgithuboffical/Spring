@@ -14,5 +14,8 @@
  <!-- <constructor-arg ref="christmasholiday"></constructor-arg>-->
  <property name="pascalyaHoliday" ref="pascalyaholiday"></property>
 </bean>
-<bean id="tracklesson" class="com.ozanyldz.springioc.TrackLesson"></bean>
+<bean id="tracklesson" class="com.ozanyldz.springioc.TrackLesson">
+<property name="lessonName" value="Turkish"></property>
+<property name="lessonCode" value="T1AF42"></property>
+</bean>
 </beans>

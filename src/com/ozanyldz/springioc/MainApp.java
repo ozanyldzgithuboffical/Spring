@@ -27,6 +27,10 @@ public class MainApp {
 		lesson.getInfo();
 		//Get maths christmas holiday status
 		mathematics.getHoliday();
+		//get turkish lesson name
+	    lesson.getLesson();
+		
+		
 		
 	    //close the context
 		_context.close();
