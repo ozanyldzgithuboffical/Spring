@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="christmasholiday" class="com.ozanyldz.springioc.ChristmasHolidays"></bean>
+<bean id="pascalyaholiday" class="com.ozanyldz.springioc.PascalyaHoliday"></bean>
+<bean id="mathematics" class="com.ozanyldz.springioc.Mathematics">
+<!-- Set up constructor injection -->
+ <!-- <constructor-arg ref="christmasholiday"></constructor-arg>-->
+ <property name="pascalyaHoliday" ref="pascalyaholiday"></property>
+</bean>
+<bean id="tracklesson" class="com.ozanyldz.springioc.TrackLesson"></bean>
+</beans>
