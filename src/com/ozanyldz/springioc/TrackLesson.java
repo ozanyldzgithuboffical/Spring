@@ -8,4 +8,10 @@ public class TrackLesson implements Lessons {
 		System.out.println("Lessons are on from monday to friday");
 	}
 
+	@Override
+	public void getHoliday() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

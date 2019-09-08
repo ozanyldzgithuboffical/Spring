@@ -25,6 +25,8 @@ public class MainApp {
 		Lessons lesson=_context.getBean("tracklesson",Lessons.class);
 		//Call methods on mathematics bean
 		lesson.getInfo();
+		//Get maths christmas holiday status
+		mathematics.getHoliday();
        
 	}
 
