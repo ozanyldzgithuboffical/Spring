@@ -3,8 +3,10 @@
  */
 package com.ozanyldzl.spring.annotations;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,7 +14,6 @@ import org.springframework.stereotype.Component;
  *
  */
 @Component("audi")
-@Scope("singleton")
 public class Audi implements Car {
 
 	private CarModel model;
@@ -26,6 +27,16 @@ public class Audi implements Car {
 	public String getCarBrand() {
 		// TODO Auto-generated method stub
 		return  "Audi  "+model.getCarModel();
+	}
+	
+	@PostConstruct
+	public void startInit() {
+	System.out.println("Spring Container starts the job");	
+	}
+	
+	@PreDestroy
+	public void endProcess() {
+		System.out.println("Context is destroyed");
 	}
 
 }

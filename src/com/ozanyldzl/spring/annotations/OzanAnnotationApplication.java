@@ -26,25 +26,10 @@ public class OzanAnnotationApplication {
 		ClassPathXmlApplicationContext _context=new ClassPathXmlApplicationContext("applicationcontext.xml");
 		
 		//Get the car bean
-		Car audi1=_context.getBean("audi",Car.class);
-		System.out.println(audi1.getCarBrand());
-		Car audi2=_context.getBean("audi",Car.class);
-		System.out.println(audi2.getCarBrand());
-		if(audi1==audi2) {
-			System.out.println("Shared bean object");
-		}else {
-			System.out.println("Not Shared");
-		}
+		Car audi=_context.getBean("audi",Car.class);
+		System.out.println(audi.getCarBrand());
 		
-		Car audip1=_context.getBean("audiprototype",Car.class);
-		System.out.println(audip1.getCarBrand());
-		Car audip2=_context.getBean("audiprototype",Car.class);
-		System.out.println(audip2.getCarBrand());
-		if(audip1==audip2) {
-			System.out.println("Shared bean object");
-		}else {
-			System.out.println("Not Shared");
-		}
+		
 		//Destroy context
 		_context.destroy();
 
