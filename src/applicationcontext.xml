@@ -7,15 +7,6 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-<bean id="christmasholiday" class="com.ozanyldz.springioc.ChristmasHolidays"></bean>
-<bean id="pascalyaholiday" class="com.ozanyldz.springioc.PascalyaHoliday"></bean>
-<bean id="mathematics" class="com.ozanyldz.springioc.Mathematics">
-<!-- Set up constructor injection -->
- <!-- <constructor-arg ref="christmasholiday"></constructor-arg>-->
- <property name="pascalyaHoliday" ref="pascalyaholiday"></property>
-</bean>
-<bean id="tracklesson" class="com.ozanyldz.springioc.TrackLesson">
-<property name="lessonName" value="Turkish"></property>
-<property name="lessonCode" value="T1AF42"></property>
-</bean>
+<!-- Component Scan Config -->
+<context:component-scan base-package="com.ozanyldzl.spring.annotations"></context:component-scan>
 </beans>
