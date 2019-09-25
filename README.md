@@ -1,5 +1,11 @@
-
-
+# Spring Core
+- Spring is a popular framework which has helper class to make the development easier.
+- Spring is published in 2004 where J2EE was in its 1.4 version.It is developed as a framework to give a response to needs that J2EE lacks of
+- In Spring Core you will learn how to create and configure your Spring Container in different ways
+- In Spring Core you will learn how to create,assemble and manage your Beans
+- In Spring Core you will learn how to inject the dependencies in different ways
+- In Spring Core you will bean cycle
+ 
 # Spring MVC
 
 - **Spring MVC** (Modal-View-Controller) is simply a Spring's technology to create web pages with the written reusable form components
