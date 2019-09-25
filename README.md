@@ -11,7 +11,9 @@
 - Put your **FormController.java** and **package-info.java** into src folder under the specified package
 - Put **web.xml** and **spring-mvc-servlet.xml** into **WEB-INF** folder
 - Put jsp page files under **WEB-INF/view** folder
+- Create a **lib** folder under **WEB-INF** folder and put your Spring & Spring MVC Servlets jars
 - Create your server to run
+
 
 ## Some Useful Code Snippet Info
 
@@ -33,7 +35,7 @@ public class FormController {
 	}
 ```
 ## About the Project
-- It basically takes an input from the form.The training aim is to reach the correct controller's method.
+- Project is to learn Spring MVC step by step
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
