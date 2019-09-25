@@ -8,7 +8,7 @@
 </head>
 <body>
 <h2>Welcome to Ozan's Spring MVC Tutorial Series</h2>
-<form action="processForm" method="GET">
+<form action="studentForm" method="GET">
 <input type="text" name="studentName" placeholder="Enter Student Name"/>
 <input type="submit"/>
 </form>

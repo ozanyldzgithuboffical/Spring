@@ -9,6 +9,6 @@
 <body>
 <h2>Welcome to Spring Mvc Tutorials of mine!</h2>
 <hr>
-<h2>Go to </h2><a href="showDefaultForm">Student Form</a>
+<h2>Go to </h2><a href="showForm">Student Form</a>
 </body>
 </html>
