@@ -2,15 +2,15 @@
 
 # Spring MVC
 
-Spring MVC is a Spring's technology to create web pages with the written reusable form components
+- **Spring MVC** (Modal-View-Controller) is simply a Spring's technology to create web pages with the written reusable form components
 
 ## Project Configuration
 
 - Create your dynamic web project 
 - Define your own package names in src folder.Plus,you can also change your root package name from servlet.xml inside component-scan base-package name
-- Put your FormController.java and package-info.java into src folder under the specified package
-- Put ** web.xml ** and ** spring-mvc-servlet.xml ** into ** WEB-INF ** folder
-- Put jsp page files under ** WEB-INF/view ** folder
+- Put your **FormController.java** and **package-info.java** into src folder under the specified package
+- Put **web.xml** and **spring-mvc-servlet.xml** into **WEB-INF** folder
+- Put jsp page files under **WEB-INF/view** folder
 - Create your server to run
 
 ## Some Useful Code Snippet Info
@@ -38,7 +38,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate. Thanks.
 
-** OZAN YILDIZ **
+**OZAN YILDIZ**
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
