@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Ozan YILDIZ Spring MVC Tutorials</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h2>Welcome to Spring Mvc Tutorials of mine!</h2>
-<hr>
-<h2>Go to </h2><a href="showDefaultForm">Student Form</a>
+<h2>Hello </h2> ${param.studentName}
 </body>
 </html>
